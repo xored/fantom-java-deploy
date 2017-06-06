@@ -6,7 +6,7 @@ using build
 ** 
 class BuildJar : build::BuildPod
 {
-  private static const Str mavenExe := "mvn"
+  private static const Str mavenExe := "/auto/java/maven/apache-maven-3.5.0/bin/mvn"
   
   ** If 'true', build subordinate jar. Look at 'SubordinateJarDist' for details.
   Bool subordinate := false
